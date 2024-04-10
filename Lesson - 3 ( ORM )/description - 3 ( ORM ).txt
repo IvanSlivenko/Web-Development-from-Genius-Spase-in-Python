@@ -1,0 +1,48 @@
+https://www.enterprisedb.com/postgresql-tutorial-resources-training-2?uuid=d732dc13-c15a-484b-b783-307823940a11&campaignId=Product_Trial_PostgreSQL_16
+
+Утановка та перший запуск PGSQL
+https://youtu.be/nxGhGQFk34Y
+08 : 58
+
+
+1 Ініціалізація через pgAdmin4
+
+2 SQL Shell (psql)
+------------------------------------------------------
+
+-  Зміна кодування \! chcp 1251
+- \l - перелік існуючих баз данних
+- \q - вихід з терміналу
+
+
+
+3. pgSql
+----------------------------------------------------
+1.Створення бази данних
+2.Створення Схеми
+3.Створення таблиці
+
+Tables-> Query Tool-> Query
+
+------------------------------------- Вибириємо данні
+SELECT * FROM fast_api_info."User";
+SELECT * FROM fast_api_info.user;
+
+------------------------------------- Додаємо данні
+INSERT INTO fast_api_info.user (name, age, email, description)
+VALUES ('Ivan', 42, 'ivan8822@ukr.net', 'switcher to python');
+
+--------------------------------------------------------------
+INSERT INTO fast_api_info.company (name, count_of_employs)
+VALUES ('KFS',1000);
+
+SELECT * FROM fast_api_info.company;
+
+------------------------------------------------
+
+pip install sqlalchemy
+pip install psycopg2
+
+
+Дмитро Бузоверя (Lesson 3)
+25: 45

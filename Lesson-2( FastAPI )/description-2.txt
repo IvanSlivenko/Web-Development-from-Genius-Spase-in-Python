@@ -1,7 +1,12 @@
 1-> pip install fastapi
 2-> pip install "uvicorn[standard]"
+ ============================================================
 cd Lesson-2( FastAPI )
-uvicorn les_2:app --reload - запускаємо сервер
+uvicorn les_2:app --reload -- port 8001 запускаємо сервер
+ ============================================================
+
+https://fastapi.tiangolo.com/tutorial/query-params/
+
 
 Lesson - 11
 09 : 30
