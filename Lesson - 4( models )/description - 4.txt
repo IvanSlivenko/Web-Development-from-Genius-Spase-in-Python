@@ -1,1 +1,21 @@
-13 : 54
+
+
+(venv) PS D:\GitHub\Web-Development-from-Genius-Spase-in-Python\Lesson - 4( models )\sql_app>
+
+uvicorn main:app --reload
+запускаємо sql
+
+Перевіряємо в браузері за url :
+http://127.0.0.1:8000/
+
+-----------------------------------------------------------
+pgAdmin4
+
+INSERT INTO users (email, hashed_password, is_active)
+VALUES ('test@ukr.net', 'sdf321123sdf' ,TRUE);
+
+SELECT * FROM public.users;
+
+-----------------------------------------------------------
+
+Урок пройдено
